@@ -1,9 +1,11 @@
 # TestContainer with Docker
 
-Running test containers using `Docker`.
+Running test containers using `Docker`. <br/><br/> 
 
 
-<br/><br/><br/><br/>
+![image](./resources/images/testcontainer.png)
+
+<br/><br/><br/><br/><br/>
 
 ## Getting Started
 
