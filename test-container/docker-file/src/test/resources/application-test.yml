@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    driver-class-name: ${DRIVER_CLASS_NAME}
+    url: ${URL}
+    username: ${USERNAME}
+    password: ${PASSWORD}
+
+  jpa:
+    hibernate:
+      ddl-auto: ${DDL_AUTO}
+    properties:
+      hibernate:
+        generate_statistics: true
+        dialect: ${DIALECT}
+        default_batch_fetch_size: 1000
+        show_sql: true
+        format_sql: true
+    open-in-view: false
+    show-sql: true
